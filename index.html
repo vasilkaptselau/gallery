@@ -1,15 +1,290 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <title>Page Title</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shishkin Art Gallery</title>
+	<meta name="description" content="Art Gallery 19th Century" />
+	<meta name="author" content="Vasil Kaptselau" />
+		<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/typography.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/new_style.css" />
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet"> 
+	<script src="js/modernizr.custom.js"></script>
 </head>
-
 <body>
-<div style="text-align:center; padding:150px 0;">
-	<object>
-		<embed src="vk_logo.svg" width="20%">
-	</object>
-</div>
+	<!-- Main container -->
+	<div class="container">
+		<header class="bp-header cf">
+			<span>VK<span class="bp-icon bp-icon-drop" style="margin-left: 18px" data-content="Art Gallery 19th Century created by Vasil Kaptselau"></span></span>
+			<h1>Art Galerry</h1>
+			
+			<nav class="mainNav">
+				<a href="gallery.html"  data-info="Gallery"><img src="images/Art.png" /><span>Gallery</span></a>
+				<a href="about.html " data-info="About Project"><img src="images/about.png" /><span>About</span></a>
+				<a href="contact.html " data-info="Contact Form"><img src="images/mail.png" /><span>Contact</span></a>
+			</nav>
+		</header>
+		<!-- Grid -->
+		<section class="slider" >
+			<img  class="rope_image"src="images/rope1.png"/>
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/paint1.png" alt="Shishkin Rye" />
+						<div class="preview">
+								<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Shishkin</span>Rye</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/paint2.png" alt="Morning in a Pine Forest" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Shishkin</span>Morning in a Pine Forest</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/paint3.png" alt="The Black Sea" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Aivazovsky</span>The Black Sea</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/paint4.png" alt="The Coast at Amalfi" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Aivazovsky</span>The Coast at Amalfi</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/paintFr4.png" alt="The Card Sharp on the Boulevard" />
+						<div class="preview rounded">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Boilly</span>The Card Sharp on the Boulevard</h2>
+			</div>
+			<div class="slide" data-content="content-6">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/paintFr1.png" alt="The Horse Fair" />
+						<div class="preview rounded">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Bonheur</span>The Horse Fair</h2>
+			</div>
+			<div class="slide" data-content="content-7">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/paintFr2.png" alt="The Garden of the Tuileries on a Spring Morning" />
+						<div class="preview rounded">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Pissarro</span>The Garden of the Tuileries on a Spring Morning</h2>
+			</div>
+			<div class="slide" data-content="content-8">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/paintFr3.png" alt="Garden at Sainte-Adresse" />
+						<div class="preview rounded">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Monet</span>Garden at Sainte-Adresse</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">Details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next</span></button>
+			</nav>
+		</section>
+		<!--PopUpSlider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/paint1.png" alt="Shishkin Rye" />
+				<div class="content__item-inner">
+					<h2>Shishkin Ivan Ivanovich</h2>
+					<h3>Rye (1878)</h3>
+					<p>Oil on canvas. The Tretyakov Gallery, Moscow, Russia. Rye is one of this artist's best canvasses.
+					By embellishing it, Shishkin transfigured the actual landscape that inspired the painting.
+					Nevertheless, the painter remained faithful to reality and accurately depicted the details of the landscape:
+					the flowers, trees and grain.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/paint2.png" alt="Shishkin Morning" />
+				<div class="content__item-inner">
+					<h2>Shishkin Ivan Ivanovich</h2>
+					<h3>Morning in a Pine Forest (1889)</h3>
+					<p>Oil on canvas. The Tretyakov Gallery, Moscow, Russia. "Russia - country of landscapes", - asserted Shishkin.
+					He creates many art landscapes-symbols of Russia, and picture Morning in a Pine Forest is for many
+					generations of the people on all planet one of such symbols.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/paint3.png" alt="The Black Sea" />
+				<div class="content__item-inner">
+					<h2>Ivan Aivazovsky</h2>
+					<h3>The Black Sea (1881)</h3>
+					<p>Oil on canvas. The Tretyakov Gallery, Moscow, Russia. Aivazovsky's greatest achievement in this period is The Black Sea.
+					Here the artist created a generalized image of the marine elements in their ever-changing manifestations.
+					The distant horizon is calm, but towards the foreground the sea gets rougher and waves break the smooth surface
+					of the water.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/paint4.png" alt="The Coast at Amalfi" />
+				<div class="content__item-inner">
+					<h2>Ivan Aivazovsky</h2>
+					<h3>The Coast at Amalfi (1841)</h3>
+					<p>Oil on canvas. The State Russian Museum, St. Petersburg, Russia. A picture might be accurate and exact,
+					but it would be sterile without the pulse of life within it. The viewer would see familiar places and
+					painstakingly reproduced details, but would remain indifferent to what he saw. Instead of copying direct from
+					nature, then, Aivazovsky tried to create a picture of the shimmering, leaping sea from memory in his studio.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/paintFr4.png" alt="The Card Sharp on the Boulevard" />
+				<div class="content__item-inner">
+					<h2>Louis-Léopold Boilly</h2>
+					<h3>The Card Sharp on the Boulevard (1806)</h3>
+					<p>Oil on wood. The National Gallery of Art, USA. Cardsharp on the Boulevard shows several episodes on
+					the boulevard du Temple, where, to the right, the scene is dominated by a cardsharp or conjurer,
+					offering cards to a group of attractive young women and children.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-6">
+				<img class="content__item-img rounded-right" src="images/paintFr1.png" alt="The Horse Fair" />
+				<div class="content__item-inner">
+					<h2>Rosa Bonheur</h2>
+					<h3>The Horse Fair (1855)</h3>
+					<p>Oil on canvas. This, Bonheur’s best-known painting, shows the horse market held in Paris on
+					the tree-lined Boulevard de l’Hôpital, near the asylum of Salpêtrière, which is visible in the left background.
+					For a year and a half Bonheur sketched there twice a week, dressing as a man to discourage attention.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-7">
+				<img class="content__item-img rounded-right" src="images/paintFr2.png" alt="The Garden of the Tuileries on a Spring Morning" />
+				<div class="content__item-inner">
+					<h2>Camille Pissarro</h2>
+					<h3>The Garden of the Tuileries on a Spring Morning (1899)</h3>
+					<p>Oil on canvas. This picture, like the two winter views of the Jardin des Tuileries by Pissarro in
+					the Museum's collection (66.36 and 1979.414), belongs to a series that he painted from his apartment in
+					the rue de Rivoli in 1899. Here, spring has arrived: underneath the blooming trees and soft blue sky,
+					a woman can be seen at lower center, pushing a brightly-attired baby in a carriage.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-8">
+				<img class="content__item-img rounded-right" src="images/paintFr3.png" alt="Garden at Sainte-Adresse" />
+				<div class="content__item-inner">
+					<h2>Claude Monet</h2>
+					<h3>Garden at Sainte-Adresse (1867)</h3>
+					<p>Oil on canvas. He painted this buoyant, sunlit scene of contemporary leisure, enlisting his father
+					(shown seated in a panama hat) and other relatives as models. By adopting an elevated viewpoint and painting
+					the terrace, sea, and sky as three distinct bands of high-keyed color, Monet emphasized the flat surface of
+					the canvas. His approach—daring for its time—reflects his admiration for Japanese prints.</p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+		<div class="content_buttom">
+			<h1>XIX CENTURY</h1>
+			<h2 style="margin-top: -26px;">Shishkin</h2>
+			<div class="flex-container row1">
+				<div class="flex-item p1">
+					<img class="zoomer__image" src="images/paint12.jpg" alt="Shishkin" />
+					<h4>Rye (1878)</h4>
+				</div>
+				<div class="flex-item p2">
+					<img class="zoomer__image" src="images/paint13.jpg" alt="Shishkin" />
+					<h4>Morning in a Pine Forest (1889)</h4>
+				</div>
+				<div class="flex-item p3">
+					<img class="zoomer__image" src="images/paint14.jpg" alt="Shishkin" />
+					<h4>Winter in a wood. Hoarfrost (1877)</h4>
+					<h4></h4>
+				</div>
+				<div class="flex-item p4">
+					<img class="zoomer__image" src="images/paint15.jpg" alt="Shishkin" />
+					<h4>The Holy Spring Near Yelabuga (1886)</h4>
+					<h4></h4>
+				</div> 
+			</div>
+			<h2>Aivazovsky</h2>
+			<div class="flex-container row2">
+				
+				<div class="flex-item p5">
+					<img class="zoomer__image" src="images/paint16.jpg" alt="Aivazovsky" />
+					<h4>The Black Sea (1881)</h4>
+				</div>
+				<div class="flex-item p5">
+					<img class="zoomer__image" src="images/paint17.jpg" alt="Aivazovsky" />
+					<h4>The Coast at Amalfi (1841)</h4>
+				</div>
+				<div class="flex-item p7">
+					<img class="zoomer__image" src="images/paint18.jpg" alt="Aivazovsky" />
+					<h4>The Great Roads at Kronstadt (1836)</h4>
+				</div>
+				<div class="flex-item p8">
+					<img class="zoomer__image" src="images/paint19.jpg" alt="Aivazovsky" />
+					<h4>Ice mountains in Antarctica (1870)</h4>
+				</div> 
+			</div>
+			<h2>French painters</h2>
+			<div class="flex-container row3">
+				<div class="flex-item p9">
+					<img class="zoomer__image" src="images/paint20.jpg" alt="French Painters" />
+					<h4>The Horse Fair (1855)</h4>
+				</div>
+				<div class="flex-item p10">
+					<img class="zoomer__image" src="images/paint21.jpg" alt="French Painters" />
+					<h4>The Garden of the Tuileries on a Spring Morning (1899)</h4>
+				</div>
+				<div class="flex-item p11">
+					<img class="zoomer__image" src="images/paint22.jpg" alt="French Painters" />
+					<h4>Garden at Sainte-Adresse (1867)</h4>
+				</div>
+				<div class="flex-item p10">
+					<img class="zoomer__image" src="images/paint23.jpg" alt="French Painters" />
+					<h4>The Card Sharp on the Boulevard (1806)</h4>
+				</div> 
+			</div>
+			
+		</div>
+	</div>
+	
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
