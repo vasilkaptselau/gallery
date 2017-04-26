@@ -25,7 +25,7 @@ html {
 .hidden {
 	position: absolute;
 	opacity: 0;
-	pointer-events: none;
+	/*pointer-events: none;*/
 }
 
 /* Main styles */
@@ -186,7 +186,7 @@ img.rope_image {
 	right: 0;
 	width: 600%;
 	text-align: right;
-	pointer-events: none;
+	/*pointer-events: none;*/
 }
 
 
